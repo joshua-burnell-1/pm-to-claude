@@ -1,0 +1,25 @@
+{
+  "name": "pm-to-claude",
+  "version": "1.0.0",
+  "description": "Mission-based learning experience and quick-reference companion for PMs using Claude Code",
+  "type": "module",
+  "bin": {
+    "pm-to-claude": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "node test/progress.test.js"
+  },
+  "keywords": ["claude", "claude-code", "product-manager", "learning", "cli", "reference"],
+  "author": "Josh Burnell",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^5.6.2",
+    "inquirer": "^13.3.2"
+  },
+  "files": [
+    "lib/",
+    "bin/",
+    "README.md"
+  ]
+}
